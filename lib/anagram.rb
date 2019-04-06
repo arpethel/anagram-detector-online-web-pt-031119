@@ -19,7 +19,7 @@ class Anagram
         @word_split = @word.split(//)
         word_split.sort == @word_split.sort
         WORDS << word
-        binding.pry
+        # binding.pry
       end
     end
     WORDS
