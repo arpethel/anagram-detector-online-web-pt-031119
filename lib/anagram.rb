@@ -14,10 +14,12 @@ class Anagram
     array.each do |word|
       binding.pry
       if word.size == @word.size
+        binding.pry
         word = word.split(//)
         @word = @word.split(//)
+        binding.pry
         if word.sort == @word.sort
-          # binding.pry
+          binding.pry
           true
         else
           false
