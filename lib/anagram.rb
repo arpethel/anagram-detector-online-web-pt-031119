@@ -22,6 +22,7 @@ class Anagram
         binding.pry
       end
     end
+    WORDS
   end
 
 end
