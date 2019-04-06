@@ -16,7 +16,7 @@ class Anagram
         word = word.split(//)
         @word = @word.split(//)
         if word.sort == @word.sort
-          binding.pry
+          # binding.pry
           true
         else
           false
