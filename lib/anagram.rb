@@ -17,9 +17,9 @@ class Anagram
         # binding.pry
         word = word.split(//)
         @word = @word.split(//)
-        binding.pry
+        # binding.pry
         if word.sort == @word.sort
-          binding.pry
+          # binding.pry
           true
         else
           false
