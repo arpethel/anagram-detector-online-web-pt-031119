@@ -23,5 +23,4 @@ class Anagram
     end
     @@words
   end
-
 end
