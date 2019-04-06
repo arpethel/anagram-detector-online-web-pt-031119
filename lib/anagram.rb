@@ -12,9 +12,9 @@ class Anagram
 
   def match(array)
     array.each do |word|
-      binding.pry
+      # binding.pry
       if word.size == @word.size
-        binding.pry
+        # binding.pry
         word = word.split(//)
         @word = @word.split(//)
         binding.pry
