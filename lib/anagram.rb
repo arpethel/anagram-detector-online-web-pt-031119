@@ -14,11 +14,7 @@ class Anagram
       if word.size == @word.size
         word = word.split(//)
         @word = @word.split(//)
-        if word.sort == @word.sort
-          true
-        else
-          false
-        end
+        word.sort == @word.sort
       end
     end
   end
