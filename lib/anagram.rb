@@ -9,7 +9,7 @@ class Anagram
 
   def initialize (word)
     @word = word
-    WORDS = []
+    @@words = []
     # binding.pry
   end
 
@@ -19,11 +19,11 @@ class Anagram
         word_split = word.split(//)
         @word_split = @word.split(//)
         word_split.sort == @word_split.sort
-        WORDS << word
-        # binding.pry
+        @@words << word
+        binding.pry
       end
     end
-    WORDS
+    @@words
   end
 
 end
