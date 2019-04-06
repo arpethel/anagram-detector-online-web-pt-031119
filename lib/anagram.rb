@@ -21,6 +21,8 @@ class Anagram
         word_split.sort == @word_split.sort
         @@words << word
         # binding.pry
+      else
+        @@words
       end
     end
     @@words
