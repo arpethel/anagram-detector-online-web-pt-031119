@@ -7,12 +7,12 @@ class Anagram
 
   def initialize (word)
     @word = word
-    binding.pry
+    # binding.pry
   end
 
   def match(array)
     array.each do |word|
-      # binding.pry
+      binding.pry
       if word.size == @word.size
         word = word.split(//)
         @word = @word.split(//)
