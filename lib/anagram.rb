@@ -5,7 +5,7 @@ class Anagram
 
   attr_accessor :word
 
-  def initialize (word)
+  def initialize(word)
     @word = word
     @@words = []
   end
@@ -15,8 +15,8 @@ class Anagram
       if word.size == @word.size
         word_split = word.split(//)
         @word_split = @word.split(//)
-        word_split.sort == @word_split.sort
-        @@words << word
+        @@words << word if word_split.sort == @word_split.sort
+        # @@words << word
       else
         @@words
       end
