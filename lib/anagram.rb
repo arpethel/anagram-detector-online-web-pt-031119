@@ -16,7 +16,6 @@ class Anagram
         word_split = word.split(//)
         @word_split = @word.split(//)
         @@words << word if word_split.sort == @word_split.sort
-        # @@words << word
       else
         @@words
       end
