@@ -5,10 +5,10 @@ class Anagram
 
   attr_accessor :word
 
-  def initialize (word, array)
+  def initialize (word)
     @word = word
     binding.pry
-    @word.match
+    
   end
 
   def match(array)
