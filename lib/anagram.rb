@@ -15,6 +15,7 @@ class Anagram
         word = word.split(//)
         @word = @word.split(//)
         word.sort == @word.sort
+        binding.pry
       end
     end
   end
